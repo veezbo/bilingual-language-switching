@@ -1,0 +1,33 @@
+loading and creating dataset 2015-07-16 13:57:22.195902
+functional input has (53, 63, 23) voxels of dimesions (3.0, 3.0, 6.0) mm
+... or 76797 voxels per volume
+masked data has 29899 voxels in each of 2641 volumes
+... which means that 62.0 % of the voxels were masked out
+of 29899 remaining features ...
+summary of conditions/volumes
+2015-07-16 13:57:23.814160
+No details due to large number of targets or chunks. Increase maxc and maxt if desired
+Summary for chunks across targets
+  chunks mean  std min max #targets
+    1     20  48.5  8  240    22
+    2     20  48.5  8  240    22
+    3     20  48.5  8  240    22
+    4     20  48.5  8  240    22
+    5     20  48.5  8  240    22
+    6     20  48.5  8  240    22
+
+detrending (remove slow drifts in signal, and jumps between runs) ... 2015-07-16 13:57:23.821974
+... done 2015-07-16 13:57:26.566557
+zscore normalising (give all voxels similar variance) ... 2015-07-16 13:57:26.566635
+... done 2015-07-16 13:57:31.956535
+saving as compressed file /media/data1/kumar/detrendedZscoredMaskedPyMVPAdataset.pkl
+averaging over trials ... 2015-07-16 13:57:31.956595
+... only 132 cases left now
+... and only 120 cases of interest (Japanese vs English)
+saving as compressed file /media/data1/kumar/averagedDetrendedZscoredMaskedPyMVPAdataset.pkl
+Running searchlight with radius: 3 ...
+[SLC] DBG:     Starting computing block for 25810 elements
+[SLC] DBG:     Doing 25810 ROIs: 25810 (48 features) [100%]
+[SLC] DBG:     hstacking 25810 results of shape (5, 1)
+[SLC] DBG:     hstacked shape (5, 25810)
+Best performing sphere error: 0.325
