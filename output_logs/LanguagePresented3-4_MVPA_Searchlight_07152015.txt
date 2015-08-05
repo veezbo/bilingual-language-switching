@@ -1,0 +1,28 @@
+loading and creating dataset 2015-07-15 17:30:38.332897
+functional input has (53, 63, 23) voxels of dimesions (3.0, 3.0, 6.0) mm
+... or 76797 voxels per volume
+masked data has 29899 voxels in each of 2641 volumes
+... which means that 62.0 % of the voxels were masked out
+of 29899 remaining features ...
+summary of conditions/volumes
+2015-07-15 17:30:39.822555
+No details due to large number of targets or chunks. Increase maxc and maxt if desired
+Summary for chunks across targets
+  chunks mean  std min max #targets
+    1     20  48.5  8  240    22
+    2     20  48.5  8  240    22
+    3     20  48.5  8  240    22
+    4     20  48.5  8  240    22
+    5     20  48.5  8  240    22
+    6     20  48.5  8  240    22
+
+detrending (remove slow drifts in signal, and jumps between runs) ... 2015-07-15 17:30:39.828785
+... done 2015-07-15 17:30:42.455447
+zscore normalising (give all voxels similar variance) ... 2015-07-15 17:30:42.455487
+... done 2015-07-15 17:30:47.738398
+saving as compressed file /media/data1/kumar/detrendedZscoredMaskedPyMVPAdataset.pkl
+averaging over trials ... 2015-07-15 17:30:47.738433
+... only 132 cases left now
+... and only 0 cases of interest (Chinese vs Korean)
+saving as compressed file /media/data1/kumar/averagedDetrendedZscoredMaskedPyMVPAdataset.pkl
+Running searchlight with radius: 3 ...

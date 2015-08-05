@@ -141,7 +141,7 @@ sensana = anovaSelectedSMLR.get_sensitivity_analyzer(postproc=M.maxofabs_sample(
 cv_sensana = M.RepeatedMeasure(sensana, M.NFoldPartitioner())
 sens = cv_sensana(dataset)
 print sens.shape
-M.map2nifti(dataset, N.mean(sens,0)).to_filename("anovaSensitivity{0}-{1}-LanguageSwitch-Japanese-English-GNB.nii".format(boldDelay, stimulusWidth))
+M.map2nifti(dataset, N.mean(sens,0)).to_filename("anovaSensitivity{0}-{1}-LanguageSwitch-Japanese-English-SVM.nii".format(boldDelay, stimulusWidth))
 
 # this looks good, but don't know way to get back from this feature selected space (of 500) to the whole space of 28k or so, for output
 weights = anovaSelectedSMLR.clf.weights 
