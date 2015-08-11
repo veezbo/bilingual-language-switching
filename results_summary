@@ -1,0 +1,20 @@
+confMatrixAvTrial3-4-keep_switch.png	60.8
+confMatrixAvTrial3-4-LanguagePresented-Japanese_English.png	66.7
+confMatrixAvTrial3-4-LanguageSwitch-Japanese_English-GNB.png	27.9
+confMatrixAvTrial3-4-LanguageSwitch-Japanese_English-SVM.png	27.5
+confMatrixAvTrial3-4-LanguageThinking-Japanese_English.png	60.0
+confMatrixAvTrial3-4-Mammal_Tool.png	66.7
+
+confMatrixAvTrial4-4-keepswitch.png	65.0
+confMatrixAvTrial4-4-LanguagePresented-Japanese_English.png	66.7
+confMatrixAvTrial4-4-LanguageSwitch-Japanese_English-GNB.png	27.5
+confMatrixAvTrial4-4-LanguageSwitch-Japanese_English-SVM.png	31.7
+confMatrixAvTrial4-4-LanguageThinking-Japanese_English.png	52.5
+confMatrixAvTrial4-4-Mammal_Tool.png	70.8
+
+confMatrixAvTrial5-4-keepswitch.png	56.7
+confMatrixAvTrial5-4-LanguagePresented-Japanese_English.png	60.0
+confMatrixAvTrial5-4-LanguageSwitch-Japanese_English-GNB.png	25.8
+confMatrixAvTrial5-4-LanguageSwitch-Japanese_English-SVM.png	31.2
+confMatrixAvTrial5-4-LanguageThinking-Japanese_English.png	55.0
+confMatrixAvTrial5-4-Mammal_Tool.png	78.3

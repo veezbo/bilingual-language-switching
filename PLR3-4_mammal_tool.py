@@ -122,7 +122,7 @@ f.close
 P.figure()
 P.title(str(N.round(foldwiseCvedAnovaSelectedSMLR.ca.stats.stats['ACC%'], 1))+'%, n-fold SMLR with anova FS x 500')
 foldwiseCvedAnovaSelectedSMLR.ca.stats.plot()
-P.savefig(os.path.join(sessionPath,'confMatrixAvTrial{0}{1}-Mammal_Tool.png'.format(boldDelay, stimulusWidth)))
+P.savefig(os.path.join(sessionPath,'confMatrixAvTrial{0}-{1}-Mammal_Tool.png'.format(boldDelay, stimulusWidth)))
 print foldwiseCvedAnovaSelectedSMLR.ca.stats.matrix
 
 print 'accuracy',N.round(foldwiseCvedAnovaSelectedSMLR.ca.stats.stats['ACC%'], 1),'%',datetime.datetime.now()
