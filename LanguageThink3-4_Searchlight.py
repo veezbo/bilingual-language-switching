@@ -171,6 +171,6 @@ for radius in [3]:
     sl_map.samples += 1
 
     niftiresults = map2nifti(sl_map, imghdr=dataset.a.imghdr)
-    niftiresults.to_filename(os.path.join(sessionPath,'analyze/functional/{0}-grey-searchlight{1}-{2}.nii'.format(classificationName, boldDelay, stimulusWidth)))
+    niftiresults.to_filename(os.path.join(sessionPath,'analyze/functional/searchlight/{0}-grey-searchlight{1}-{2}.nii'.format(classificationName, boldDelay, stimulusWidth)))
     print 'Best performing sphere error:', np.min(sl_map.samples)
 
